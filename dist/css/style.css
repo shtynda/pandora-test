@@ -38,8 +38,7 @@ a {
   position: relative;
 }
 
-.wrapper .feedback {
-  display: block;
+.wrapper .btn-feedback {
   position: fixed;
   right: -46px;
   top: 60%;
@@ -51,7 +50,7 @@ a {
   transform: rotate(90deg);
   background: #ffffff;
   border: 1px solid #b4b4b4;
-  border-radius: 0 0 3px 3px;
+  border-radius: 3px;
   height: 37px;
   width: 127px;
   z-index: 10;
@@ -364,6 +363,7 @@ main .pandora-block .block-description .product-test .btn {
   padding: 15px;
   border: none;
   transition: all 0.3s ease;
+  height: 45px;
 }
 
 main .pandora-block .block-description .product-test .btn:hover {
@@ -447,7 +447,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .wrapper .feedback {
+  .wrapper .btn-feedback {
     right: -40px;
     height: 30px;
     line-height: 30px;
