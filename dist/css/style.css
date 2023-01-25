@@ -401,17 +401,21 @@ footer {
   }
 
   main .pandora-block .block-img {
-    flex: 0 1 73%;
+    flex: 0 1 75%;
   }
 
   main .pandora-block .block-description {
-    padding: 10px 25px;
+    padding: 10px;
   }
 }
 
 @media (max-width: 1200px) {
   .container {
     max-width: 992px;
+  }
+
+  main .pandora-block .block-img {
+    flex: 0 1 73%;
   }
 
   main .pandora-block .block-img .img-iteam {
@@ -421,8 +425,7 @@ footer {
   }
 
   main .pandora-block .block-description {
-    padding: 10px 15px;
-    flex: 0 1 calc(33% - 50px);
+    flex: 0 1 calc(28% - 20px);
   }
 }
 
