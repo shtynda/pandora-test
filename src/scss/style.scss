@@ -452,3 +452,10 @@ main {
 footer {
     height: 200px;
 }
+
+@font-face {
+    font-family: "Pan Display";
+    src: url("../files/fonts/Pan Display Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
