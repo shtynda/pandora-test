@@ -98,44 +98,48 @@ header {
             }
             .burger-menu {
                 position: relative;
-                height: 17px;
+                height: 18px;
                 width: 22px;
+                padding: 2px;
                 z-index: 3;
-                margin-top: 2px;
+                margin-top: -1px;
                 margin-right: 20px;
                 &::before {
                     content: "";
                     position: absolute;
                     width: 22px;
                     left: 0;
-                    top: 0;
+                    top: 3px;
                     transition: all 0.3s ease 0s;
-                    border: 1px solid #27251f;
+                    height: 2px;
+                    background-color: #27251f;
                 }
                 span {
                     position: absolute;
                     width: 22px;
-                    border: 1px solid #27251f;
                     left: 0;
-                    top: 7px;
+                    top: 11px;
                     transition: all 0.3s ease 0s;
+                    height: 2px;
+                    background-color: #27251f;
                 }
                 &::after {
                     content: "";
                     position: absolute;
                     width: 22px;
-                    border: 1px solid #27251f;
                     left: 0;
-                    bottom: 0;
+                    bottom: 1px;
                     transition: all 0.3s ease 0s;
+                    height: 2px;
+                    background-color: #27251f;
                 }
                 &.active::before {
                     transform: rotate(45deg);
-                    top: 7.5px;
+                    top: 9.5px;
                 }
                 &.active::after {
                     transform: rotate(-45deg);
-                    bottom: 7.5px;
+                    bottom: 9.5px;
                 }
                 &.active span {
                     transform: scale(0);
@@ -454,7 +458,7 @@ main {
     }
 }
 footer {
-    height: 200px;
+    height: 100px;
 }
 
 @font-face {
