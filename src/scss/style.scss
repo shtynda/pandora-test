@@ -187,7 +187,6 @@ header {
                     border: 1px solid #f5f5f5;
                     width: calc(240px - 51px);
                     padding: 11px 10px 11px 40px;
-                    color: #b4b4b4;
                     font-size: 12px;
                     font-weight: 500;
                     font-family: "Gill Sans Nova";
@@ -195,6 +194,9 @@ header {
                     line-height: 136%;
                     text-transform: uppercase;
                     background-color: #fff;
+                    &::-webkit-input-placeholder {
+                        color: #b4b4b4;
+                    }
                     &:focus {
                         outline: #f5f5f5 solid 1px;
                     }
